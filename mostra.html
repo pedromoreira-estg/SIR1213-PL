@@ -2,7 +2,37 @@
 	<head>
 		<title>Mostra</title>
 		<link rel="stylesheet" href="css/estilo2.css" />
+		<script>
+			window.onload = function () {
+				// colecciona todos os elementos da classe 'contentor'
+				var divscontentor = document.getElementsByClassName("contentor");
+				// para cada um
+				for(var i=0; i < divscontentor.length; i++) {
+					var leg;
+					if (leg = divscontentor[i].getElementsByClassName("legenda")[0]) {
+						leg.onclick = clica;
+					}
+					var foto;
+					if (foto = divscontentor[i].getElementsByClassName("foto")[0]) {
+						foto.style.display = "none";
+					}
+				}
+			}
+			
+			function clica() {
+				var foto;
+				 if (foto = this.parentNode.getElementsByClassName("foto")[0]) {
+				 	if (foto.style.display == "none") {
+				 		foto.style.display = "block";
+				 	} else {
+				 		foto.style.display = "none";
+				 	}
+				 }
+			}
+			
+		</script>
 	</head>
+
 	<body>
 		<div class="contentor">
 			<div class="legenda">

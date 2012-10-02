@@ -1,0 +1,25 @@
+
+HTTP - Hypertext Transfer Protocol
+
+Cliente   / Servidor
+(browser) / (servidor http)
+
+--------------
+Cliente				Servidor
+HTML					PHP
+CSS					ASP
+JavaScript			JAVA
+AJAX	 (XML,JSON)			
+
+
+Javascript - JQuery, JQueryUI, Processing.JS, EXT JS, PhiloGL
+-----------------------------------
+Servidor HTTP (WAMP, XAMPP, EasyPHP) (HTTP + PHP + MySQL)
+-----------------------------------
+Aptana Studio 3 || Eclipse + PDT
+Adobe DreamWeaver
+-----------------------------------
+
+
+
+

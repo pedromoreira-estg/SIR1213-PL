@@ -1,0 +1,40 @@
+body {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color:red;
+	background-color: rgb(200,200,200);
+}
+
+* { color:rgb(80,80,80);}
+h1,h2 {
+	text-transform: uppercase;
+}
+
+h2 {
+	color:rgb(200,200,255); /* azul bebe */
+}
+
+h1 {
+	color:rgb(20,20,127); /* azul escuro */
+}
+
+.l {
+	color:yellow;
+}
+
+.r {
+	color:green;
+}
+
+.l,.r {
+	color:white;
+}
+
+h2.l {
+	color:rgb(255,200,200); /* rosa */
+}
+
+h2.r {
+	color:rgb(100,25,25); /* vermelho escuro */
+}
+
+img + h2.l {color:lime;}
